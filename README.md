@@ -29,35 +29,3 @@ O projeto consiste na implementação das seguintes funcionalidades:
 11. **Adicionar/Remover Favoritas**: Implementar requisições para adicionar ou remover músicas favoritas ao clicar no checkbox.
 12. **Recuperar Músicas Favoritas**: Fazer uma requisição para atualizar a lista de músicas favoritas ao acessar a página do álbum.
 13. **Exibição de Mensagens de Alerta**: Utilizar alertas para informar ações concluídas com sucesso.
-
-## Instruções de Instalação e Uso
-
-1. Clone este repositório para o seu computador:
-
-    ```bash
-    git clone git@github.com:JyojiTenguam/trybetunes.git
-    ```
-
-2. Navegue até o diretório do projeto:
-
-    ```bash
-    cd trybetunes
-    ```
-
-3. Instale as dependências do projeto:
-
-    ```bash
-    npm install
-    ```
-
-4. Execute a aplicação:
-
-    ```bash
-    npm start
-    ```
-
-5. Execute os testes para verificar se tudo está funcionando corretamente:
-
-    ```bash
-    npm test
-    ```
