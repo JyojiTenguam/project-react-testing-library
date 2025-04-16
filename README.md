@@ -1,66 +1,65 @@
-# Projeto Trybetunes 🎶
+# 🧪 React Testing Library com TypeScript
 
-Boas-vindas ao repositório do projeto Trybetunes! Este projeto foi desenvolvido como parte do curso da Trybe, com o objetivo de criar uma aplicação para gerenciar músicas e álbuns de forma interativa. Abaixo, você encontrará orientações sobre como estruturar o desenvolvimento do seu projeto e as funcionalidades que devem ser implementadas.
+Uma aplicação React que implementa testes unitários utilizando o React Testing Library com TypeScript, desenvolvida como exercício do módulo de Front-end da Trybe.
 
-## Tecnologias Utilizadas
+## ✨ Demonstração
+
+> Projeto com interface visual. A aplicação exibe componentes React testados com o React Testing Library, utilizando TypeScript para garantir a tipagem estática e melhorar a qualidade do código.
+
+## 📋 Índice
+
+- [Sobre](#-sobre)
+- [Habilidades desenvolvidas](#-habilidades-desenvolvidas)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Como rodar o projeto](#-como-rodar-o-projeto)
+- [Autor](#-autor)
+
+## 💡 Sobre
+
+Neste projeto, foi desenvolvida uma aplicação React com testes unitários utilizando o React Testing Library e TypeScript. O objetivo é garantir que os componentes funcionem corretamente e que o código seja mantido com alta qualidade.
+
+## 🛠️ Habilidades desenvolvidas
+
+- Escrever testes unitários para componentes React utilizando o React Testing Library
+- Utilizar TypeScript para garantir a tipagem estática e melhorar a qualidade do código
+- Simular interações do usuário nos testes
+- Verificar a presença de elementos no DOM durante os testes
+- Configurar o ambiente de testes com Jest e React Testing Library
+
+## 🧪 Tecnologias utilizadas
 
 - React
-- JavaScript
-- HTML
-- CSS
+- TypeScript
+- React Testing Library
+- Jest
 
-## Funcionalidades do Projeto
+## 🚀 Como rodar o projeto
 
-O projeto consiste na implementação das seguintes funcionalidades:
+1. Clone o repositório:
 
-1. **Título da Aplicação**: Adicionar um título "Trybetunes" em uma tag `<h1>`.
-2. **Componente Login**: Criar um componente `Login` com um formulário para que o usuário se identifique com um nome.
-3. **Componente Search**: Criar um formulário para pesquisar álbuns de uma banda ou artista, contendo um input e um botão de pesquisa.
-4. **Requisições de Álbuns**: Fazer uma requisição para receber a lista de álbuns da banda ou artista pesquisada ao clicar no botão de pesquisa.
-5. **Componente Album**: Exibir a lista de músicas do álbum selecionado dentro do componente `Album`.
-6. **Componente Header**: Criar um componente de cabeçalho chamado `Header`.
-7. **Músicas Favoritas**: Implementar um mecanismo para marcar músicas como favoritas usando checkboxes no componente `MusicCard`.
-8. **Componente Favorites**: Criar uma lista de músicas favoritas dentro do componente `Favorites`.
-9. **Exibição de Perfil**: Criar um componente `Profile` para exibir informações do usuário.
-10. **Edição de Perfil**: Criar um formulário de edição de perfil dentro do componente `ProfileEdit`.
+```bash
+git clone https://github.com/tryber/project-react-testing-library.git
+```
 
-### Requisitos Bônus
+2. Acesse a pasta do projeto
 
-11. **Adicionar/Remover Favoritas**: Implementar requisições para adicionar ou remover músicas favoritas ao clicar no checkbox.
-12. **Recuperar Músicas Favoritas**: Fazer uma requisição para atualizar a lista de músicas favoritas ao acessar a página do álbum.
-13. **Exibição de Mensagens de Alerta**: Utilizar alertas para informar ações concluídas com sucesso.
+```bash
+cd project-react-testing-library
+```
 
-## Instruções de Instalação e Uso
+3. Instale as dependências
 
-1. **Faça um Fork do Repositório**:
-   - Acesse o [repositório original do projeto](https://github.com/JyojiTenguam/trybetunes) no GitHub e clique em **"Fork"** no canto superior direito para criar uma cópia do projeto na sua conta.
+```bash
+npm install
+```
 
-2. **Clone o Repositório Forkado**:
-   - Após fazer o fork, copie o link do seu repositório forkado e clone-o para o seu computador:
+4. Inicie o servidor local
 
-    ```bash
-    git clone git@github.com:seu-usuario/trybetunes.git
-    ```
+```bash
+npm start
+```
+>A aplicação abrirá no navegador em http://localhost:3000
 
-3. **Navegue até o Diretório do Projeto**:
-    ```bash
-    cd trybetunes
-    ```
+## 👤 Autor
 
-4. **Instale as Dependências do Projeto**:
-    ```bash
-    npm install
-    ```
-
-5. **Execute a Aplicação**:
-    ```bash
-    npm start
-    ```
-
-6. **Execute os Testes**:
-   - Para verificar se tudo está funcionando corretamente:
-    ```bash
-    npm test
-    ```
-
-Lembre-se de substituir `"seu-usuario"` pelo seu nome de usuário no GitHub para que o link do fork seja correto.
+Este projeto foi desenvolvido como parte do curso de Desenvolvimento Web da Trybe, por Jyoji Tenguam.
